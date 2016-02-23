@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- thread-count="1" 为同时执行的线程数 parallel="tests" 为同时执行的测试级别，可配置为false,methods，tests，classes，instances -->
+<suite name="PageObject" thread-count="1" parallel="false">
+	<test name="AuctionWebTest_firefox" >
+		<classes>
+			<!-- 同一级别的测试执行会按照class配置的先后顺序执行 -->
+			<!-- 非同一级别的测试仍按照testNG的优先级执行，Suite > Class > Test -->
+		<class name="cn.gloryroad.webdriver.testcase.InitWebdriverTest"></class>
+			<class name="cn.gloryroad.testcase.LogonTest"></class> 
+		</classes>
+	</test>
+</suite> 

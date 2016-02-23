@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [PageObject]">
+  <test name="AuctionWebTest_firefox(failed)">
+    <classes>
+      <class name="cn.gloryroad.webdriver.testcase.InitWebdriverTest">
+        <methods>
+          <include name="beforeTestSuite"/>
+        </methods>
+      </class> <!-- cn.gloryroad.webdriver.testcase.InitWebdriverTest -->
+      <class name="cn.gloryroad.testcase.LogonTest">
+        <methods>
+          <include name="testLogin"/>
+          <include name="beforeClassTest"/>
+        </methods>
+      </class> <!-- cn.gloryroad.testcase.LogonTest -->
+    </classes>
+  </test> <!-- AuctionWebTest_firefox(failed) -->
+</suite> <!-- Failed suite [PageObject] -->
