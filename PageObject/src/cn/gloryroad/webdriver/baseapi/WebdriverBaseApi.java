@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  * 3、写一个HomePage类，继承basePage类，并构造实例化driver，及super（driver），在该页面对象中，写进入各页面的方法并返回新页面对象并传入driver
  * 4、写各个页面对象类，继承basePage，并构造实例化driver，写该页面中各种操作，调用时调用baseapi中的方法
  * 5、写一个BaseCase类，声明WebDriver driver对象，写个beforeSuite方法，指定driver为浏览器driver；同时写个InitWebdriverTest继承baseCase，
- * 给driver赋值指定为firefox浏览器对象，并调用baseCase类中的beforeSuite方法获取driver
+ * 给driver赋值指定为firefox浏览器对象，并调用baseCase类中的beforeSuite方法获取driver。
  * 
  * @author CWB_PC
  *
